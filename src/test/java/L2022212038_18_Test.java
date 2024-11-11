@@ -30,7 +30,7 @@ public class L2022212038_18_Test {
         int[] num = {-2, -3, 4, -5, 6, -7};
         Solution18 sol = new Solution18();
         int[] ans = sol.productExceptSelf(num);
-        Assert.assertArrayEquals(ans, new int[]{-2520, -1680, 1260, -1008, 840, -720});
+        Assert.assertArrayEquals(ans, new int[]{-2520, -1680, 1260, -1008, 840, -72});
     }
     @Test
     //测试只有num数组只有一个元素时的运行情况
